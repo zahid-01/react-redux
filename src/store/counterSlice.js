@@ -9,11 +9,11 @@ const counterSlice = createSlice({
   name: "COUNTER",
   initialState: initialCounterState,
   reducers: {
-    increment(state) {
-      state.counter++;
-    },
     decrement(state) {
       state.counter--;
+    },
+    increment(state) {
+      state.counter++;
     },
     toggle(state) {
       state.counterVisible = !state.counterVisible;
